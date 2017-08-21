@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" contetn="ie=edge">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <title>AJAX Notes</title>
+    </head>
+    <body>
+        <h1>Notes</h1>
+
+        <div class='Notes'>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $.get("/query",
+                    (res) => {
+                        var str = "";
+                        var i = 0;
+                        while(i < res.length)
+                        {
+                            str += "<form action='/update/" + res[i].id + "'>";
+                            str += "<input type='text' name='description' value='" + res[i].description + "'>  <b>|</b> <a href='/delete/" + res[i].id + "'>delete</a></h5>";
+                            str += "<br>"
+                            str += "<textarea name='note' cols='60'>" + res[i].note + "</textarea>";
+                            str += "<br>"
+                            str += "<a href='/update/" + res[i].id + "'><button type=''>update</button></a>"
+                            str += "</form>";
+
+                            i++;
+                        }
+                        $(".Notes").html(str);
+                    }
+                )
+            });
+        </script>
+        <br>
+        <form action='/add' method='post'>
+            <h5>Description: <input type='text' name='description' size='40'></h5>
+            <textarea name='note' cols='60'></textarea>
+            <br>
+            <input type='submit' value='add note'>
+        </form>
+    </body>
+</html>

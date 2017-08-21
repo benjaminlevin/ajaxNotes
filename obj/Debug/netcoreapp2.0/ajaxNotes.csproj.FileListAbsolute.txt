@@ -1,0 +1,10 @@
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.csproj.CoreCompileInputs.cache
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.AssemblyInfoInputs.cache
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.AssemblyInfo.cs
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.deps.json
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.runtimeconfig.json
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.runtimeconfig.dev.json
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.dll
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.pdb
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.dll
+/Users/benlevin/Desktop/DojoAssignments/csharp/week_3/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.pdb
